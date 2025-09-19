@@ -39,14 +39,14 @@ export const Menus = [
     link: 'programmes',
   },
   {
-    name: 'Partenaires',
+    name: 'Images de séjour',
     icon: '/images/svg/handshake.svg',
-    link: 'partenaires',
+    link: 'Images de séjour',
   },
   {
-    name: 'TME Family',
+    name: 'Contacts utiles',
     icon: '/images/svg/waypoints.svg',
-    link: 'tme',
+    link: 'Contacts utiles',
   },
   {
     name: 'Trombinoscope',
@@ -54,9 +54,9 @@ export const Menus = [
     link: 'trombinoscope',
   },
   {
-    name: 'Workshop',
+    name: 'Carte',
     icon: '/images/svg/presentation.svg',
-    link: 'workshop',
+    link: 'Carte',
   },
   // {
   //   name: 'Diner de gala',
@@ -72,14 +72,14 @@ export const MenuHomePage = [
     link: 'programmes',
   },
   {
-    name: 'Partenaires',
-    icon: '/images/svghomepage/handshake.svg',
-    link: 'partenaires',
+    name: 'Images de séjour',
+    icon: '/images/svghomepage/images.svg',
+    link: 'Images de séjour',
   },
   {
-    name: 'TME Family',
-    icon: '/images/svghomepage/waypoints.svg',
-    link: 'tme',
+    name: 'Contacts utiles',
+    icon: '/images/svghomepage/contact.svg',
+    link: 'Contacts utiles',
   },
   {
     name: 'Trombinoscope',
@@ -87,9 +87,9 @@ export const MenuHomePage = [
     link: 'trombinoscope',
   },
   {
-    name: 'Workshop',
-    icon: '/images/svghomepage/presentation.svg',
-    link: 'workshop',
+    name: 'Carte',
+    icon: '/images/svghomepage/map.svg',
+    link: 'Carte',
   },
   // {
   //   name: 'Diner de gala',

@@ -13,7 +13,7 @@ export default function Home() {
   }
   return (
     <div className="mx-auto max-w-4xl">
-      <Banner className="h-[185px]" BannerTitleClass="top-[65%]" />
+      <Banner className="h-[250px]" BannerTitleClass="top-[65%]" />
       {
         menu === 'home' ? <Navigation handlePageName={handleMenu}/> : <><PageSwitcher name={menu}/> <MenuFooter handleMenu={handleMenu} pathname={menu}/></>
       }

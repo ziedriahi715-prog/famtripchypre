@@ -7,7 +7,7 @@ import { Workshop, WorkshopEvents } from '@/app/utils/workshop';
 import Table from '@/app/components/workshop/Table';
 import TableGroupe from '@/app/components/workshop/TableGroupe';
 
-const WorkshopComponent = () => {
+const CarteComponent = () => {
   const [seletedGroup, setSelectedGroup] = useState<any>('Liste Alpha');
   const [isOpenModal, setOpenModal] = useState<boolean>(false);
 
@@ -66,4 +66,4 @@ const WorkshopComponent = () => {
   );
 };
 
-export default WorkshopComponent;
+export default CarteComponent;

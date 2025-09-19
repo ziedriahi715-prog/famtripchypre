@@ -4,7 +4,7 @@ import Programme from './programme/Programme'
 import Parten from './partenaires/Parten'
 import TmeFamily from './tme/TmeFamily'
 import Trombinoscope from './trombinoscope/Trombinoscope'
-import WorkshopComponent from './workshop/WorkshopComponent'
+import CarteComponent from './workshop/WorkshopComponent'
 
 interface PageName{
     name : string;
@@ -31,7 +31,7 @@ const PageSwitcher: React.FC<PageName> = ({name}) => {
         name == "trombinoscope" ? <Trombinoscope/> : ""
       }
       {
-        name == "workshop" ? <WorkshopComponent/> : ""
+        name == "Carte" ? <CarteComponent/> : ""
       }
     </div>
   )
