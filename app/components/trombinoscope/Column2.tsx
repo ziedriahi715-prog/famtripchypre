@@ -8,7 +8,7 @@ const Column2 = () => {
         <Image
           fill
           className="rounded-[20px] object-cover"
-          src="/images/trombinoscope/Géraldine - Créative Events.jpg"
+          src="/images/trombinoscope/Geraldine.jpg"
           alt="Géraldine - Creative Events"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">

@@ -1,11 +1,11 @@
-'use client';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import { useEffect } from 'react';
+"use client";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { useEffect } from "react";
 
 const inter = Inter({
-  variable: '--font-inter',
-  subsets: ['latin'],
+  variable: "--font-inter",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -14,16 +14,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   useEffect(() => {
-    if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+    if (typeof window !== "undefined" && "serviceWorker" in navigator) {
       // Wait for the page to load before registering the service worker
-      window.addEventListener('load', () => {
+      window.addEventListener("load", () => {
         navigator.serviceWorker
-          .register('/sw.js')
+          .register("/sw.js")
           .then((registration) => {
-            console.log('Service Worker registered with scope:', registration.scope);
+            console.log(
+              "Service Worker registered with scope:",
+              registration.scope
+            );
           })
           .catch((error) => {
-            console.error('Service Worker registration failed:', error);
+            console.error("Service Worker registration failed:", error);
           });
       });
     }
@@ -32,9 +35,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Secret AfterWork</title>
+        <title>Fam Trip Chypre</title>
         <meta name="description" content="Secret AfterWork App" />
-        <link rel="apple-touche-icon" href="/images/icons/apple-touch-icon.png"></link>
+        <link
+          rel="apple-touche-icon"
+          href="/images/icons/apple-touch-icon.png"
+        ></link>
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="apple-touch-startup-image"
@@ -45,7 +51,9 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
       </head>
-      <body className={`${inter.variable} relative antialiased md:mx-auto md:max-w-3xl`}>
+      <body
+        className={`${inter.variable} relative antialiased md:mx-auto md:max-w-3xl`}
+      >
         {children}
       </body>
     </html>
