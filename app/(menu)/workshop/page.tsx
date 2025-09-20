@@ -1,13 +1,9 @@
 "use client";
 
-import Image from "next/image";
+import WorkshopComponent from "@/app/components/workshop/WorkshopComponent";
 
 const Page = () => {
-  return (
-    <>
-      <img src="/images/map.jpg" alt="Map" width={1000} height={1000} />
-    </>
-  );
+  return <WorkshopComponent />;
 };
 
 export default Page;
