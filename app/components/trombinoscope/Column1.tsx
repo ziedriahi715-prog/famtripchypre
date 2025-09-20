@@ -1,134 +1,50 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const Column1 = () => {
   return (
-    <div className="columns-1 gap-3 space-y-3 md:columns-2">
-      <div className="image">
+    <div className="space-y-4">
+      <div className="relative w-full aspect-square">
         <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
           fill
-          src="/images/trombinoscope/Aysegul - Qincentive.jpg"
-          alt="Aysegul - Qincentive"
+          className="rounded-[20px] object-cover"
+          src="/images/trombinoscope/Emma.jpg"
+          alt="Emma - Agenence 008"
         />
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
+          <p className="text-center text-sm">
+            Emma - <span className="font-bold">Agenence 008</span>
+          </p>
+        </div>
       </div>
 
-      <div className="image">
+      <div className="relative w-full aspect-square">
         <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
           fill
-          src="/images/trombinoscope/Candice - Shangri La.jpg"
-          alt="Candice - Shangri La"
+          className="rounded-[20px] object-cover"
+          src="/images/trombinoscope/Charlotte - MotivEvents.jpg"
+          alt="Charlotte - MotivEvents"
         />
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
+          <p className="text-center text-sm">
+            Charlotte - <span className="font-bold">MotivEvents</span>
+          </p>
+        </div>
       </div>
 
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Tarek - SPICE.jpg"
-          alt="Tarek - SPICE"
-        />
-      </div>
-
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#5FC14233]"></div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Teelasha - Emotions.jpg"
-          alt="Teelasha - Emotions"
-        />
-      </div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Sandra - Spice Egypte.jpg"
-          alt="Sandra - Spice Egypte"
-        />
-      </div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Alberta - Merity.jpg"
-          alt="Alberta - Merity"
-        />
-      </div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Annabelle - Easia.jpg"
-          alt="Annabelle - Easia"
-        />
-      </div>
-
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#ED80001A]"></div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Anne Christine - 7th sense.jpg"
-          alt="Anne Christine - 7th sense"
-        />
-      </div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Inès - Off Road.jpg"
-          alt="Inès - Off Road"
-        />
-      </div>
-
-      <div className="image">
+      <div className="relative w-full aspect-square">
         <Image
           fill
-          objectFit="cover"
-          className="rounded-[20px object-top]"
-          src="/images/trombinoscope/Jalil - KTI.jpg"
-          alt="Jalil - KTI"
-        />
-      </div>
-
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#ED80001A]"></div>
-
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
-          src="/images/trombinoscope/Jenny - OT Maurice.jpg"
-          alt="Jenny - OT Maurice"
-        />
-      </div>
-      <div className="image">
-        <Image
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          fill
+          className="rounded-[20px] object-cover"
           src="/images/trombinoscope/Aurore - Sassy Events.jpg"
-          alt="Aurore - Sassy_Events"
+          alt="Aurore - Sassy Events"
         />
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
+          <p className="text-center text-sm">
+            Aurore - <span className="font-bold">Sassy Events</span>
+          </p>
+        </div>
       </div>
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#ED80001A]"></div>
     </div>
   );
 };

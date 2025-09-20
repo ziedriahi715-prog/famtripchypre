@@ -1,19 +1,19 @@
 import Image from "next/image";
 import React from "react";
 
-const Column2 = () => {
+const Column4 = () => {
   return (
     <div className="space-y-4">
       <div className="relative w-full aspect-square">
         <Image
           fill
           className="rounded-[20px] object-cover"
-          src="/images/trombinoscope/Géraldine - Créative Events.jpg"
-          alt="Géraldine - Creative Events"
+          src="/images/trombinoscope/Xenia - Force Rose.jpg"
+          alt="Xenia - Force Rose"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
           <p className="text-center text-sm">
-            Géraldine - <span className="font-bold">Créative Events</span>
+            Xénia - <span className="font-bold">Force Rose</span>
           </p>
         </div>
       </div>
@@ -22,12 +22,12 @@ const Column2 = () => {
         <Image
           fill
           className="rounded-[20px] object-cover"
-          src="/images/trombinoscope/Mélanie - Succès des Stim.jpg"
-          alt="Mélanie - Succès des Stim"
+          src="/images/trombinoscope/Sabrina - Wagram & Vous.jpg"
+          alt="Sabrina - Wagram & Vous"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
           <p className="text-center text-sm">
-            Mélanie - <span className="font-bold">Succès des Stim</span>
+            Sabrina - <span className="font-bold">Wagram & Vous</span>
           </p>
         </div>
       </div>
@@ -36,12 +36,12 @@ const Column2 = () => {
         <Image
           fill
           className="rounded-[20px] object-cover"
-          src="/images/trombinoscope/Kléa - Sassy Events.jpg"
-          alt="Kléa - Sassy Events"
+          src="/images/trombinoscope/Herve.jpg"
+          alt="Hervé - The MICE Experts"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
           <p className="text-center text-sm">
-            Kléa - <span className="font-bold">Sassy Events</span>
+            Hervé - <span className="font-bold">The MICE Experts</span>
           </p>
         </div>
       </div>
@@ -49,4 +49,4 @@ const Column2 = () => {
   );
 };
 
-export default Column2;
+export default Column4;

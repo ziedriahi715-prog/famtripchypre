@@ -9,7 +9,7 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ text, className }) => {
   return (
     <div className={className ?? ""}>
-      <div className="bg-[#1f2833]">
+      <div className="bg-gradient-to-r from-[#1f2f3a] to-[#ffffff]">
         <div className="mx-auto flex max-w-4xl items-center justify-between gap-6 px-4 py-3">
           <div className="relative h-[44px] w-[110px]">
             <Image src="/images/logo.png" alt="Logo" fill sizes="110px" />

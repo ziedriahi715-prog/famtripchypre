@@ -1,119 +1,50 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const Column3 = () => {
   return (
-    <div className="columns-1 gap-3 space-y-3 md:columns-2">
-      <div className="image">
+    <div className="space-y-4">
+      <div className="relative w-full aspect-square">
         <Image
           fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Clément - Step In.jpg"
-          alt="Clément - Step In"
+          className="rounded-[20px] object-cover"
+          src="/images/trombinoscope/Jenny.jpg"
+          alt="Jenny Angot - Equatour"
         />
-      </div>
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#5FC14233]"></div>
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Cynthia - Incentivos Ibiza.jpg"
-          alt="Cynthia - Incentivos Ibiza"
-        />
-      </div>
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Dibi Youssef - Emirates.jpg"
-          alt="Dibi Youssef - Emirates"
-        />
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
+          <p className="text-center text-sm">
+            Jenny - <span className="font-bold">Equatour</span>
+          </p>
+        </div>
       </div>
 
-      <div className="image">
+      <div className="relative w-full aspect-square">
         <Image
           fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Marion Colas - OT Arabie Saoudite.jpg"
-          alt="Marion Colas - OT Arabie Saoudite"
+          className="rounded-[20px] object-cover"
+          src="/images/trombinoscope/christe.jpg"
+          alt="Christe - WMH"
         />
-      </div>
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#ED80001A]"></div>
-
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Michèle - Blue Safari Seychelles.jpg"
-          alt="Michèle - Blue Safari Seychelles"
-        />
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
+          <p className="text-center text-sm">
+            Christe - <span className="font-bold">WMH</span>
+          </p>
+        </div>
       </div>
 
-      <div className="image">
+      <div className="relative w-full aspect-square">
         <Image
           fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/CerenAvantgarde.jpg"
-          alt="Ceren"
+          className="rounded-[20px] object-cover"
+          src="/images/trombinoscope/Abi - Sassy Events.jpg"
+          alt="Kabi - Sassy Events"
         />
+        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
+          <p className="text-center text-sm">
+            Kabi - <span className="font-bold">Sassy Events</span>
+          </p>
+        </div>
       </div>
-
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#6A936033]"></div>
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Gael - Tucaya.jpg"
-          alt="Gael - Tucaya"
-        />
-      </div>
-
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Hervé - The MICE Experts.jpg"
-          alt="Hervé - The MICE Experts"
-        />
-      </div>
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#6A936033]"></div>
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Hugo Robotti.jpg"
-          alt="Hugo Robotti"
-        />
-      </div>
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/Sami - Terre d'ailleurs.jpg"
-          alt="Sami - Terre d'ailleurs"
-        />
-      </div>
-
-      <div className="image">
-        <Image
-          fill
-          objectFit="cover"
-          className="rounded-[20px] object-top"
-          src="/images/trombinoscope/NazlicanMarriott.jpg"
-          alt="Nazlican - Marriott"
-        />
-      </div>
-      <div className="h-[90px] w-[115px] rounded-[20px] bg-[#5FC14233]"></div>
     </div>
   );
 };
