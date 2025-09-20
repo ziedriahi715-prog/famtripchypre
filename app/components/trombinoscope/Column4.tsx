@@ -35,7 +35,7 @@ const Column4 = () => {
       <div className="relative w-full aspect-square">
         <Image
           fill
-          className="rounded-[20px] object-cover"
+          className="rounded-[20px] object-cover object-top"
           src="/images/trombinoscope/Herve.jpg"
           alt="Hervé - The MICE Experts"
         />

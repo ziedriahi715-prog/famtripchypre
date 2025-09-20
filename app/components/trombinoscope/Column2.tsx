@@ -22,7 +22,7 @@ const Column2 = () => {
         <Image
           fill
           className="rounded-[20px] object-cover"
-          src="/images/trombinoscope/Mélanie - Succès des Stim.jpg"
+          src="/images/trombinoscope/melanie.jpg"
           alt="Mélanie - Succès des Stim"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 rounded-b-[20px]">
