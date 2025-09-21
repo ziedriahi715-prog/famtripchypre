@@ -194,7 +194,7 @@ const Programme = () => {
                   key={day.key}
                   role="tab"
                   aria-selected={selected}
-                  className={`text-sm md:text-base px-4 py-3 text-left transition-colors ${
+                  className={`text-sm md:text-base px-4 py-3 text-center  transition-colors ${
                     selected
                       ? "bg-[#6B7280] text-white font-semibold"
                       : "bg-[#D1D5DB] hover:bg-gray-300"
