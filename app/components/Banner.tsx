@@ -18,7 +18,7 @@ const Banner: React.FC<Banner> = ({ className, BannerTitleClass }) => {
           href={"/"}
         >
           <Image
-            src={"/images/sassy_png.png"}
+            src={"/images/sassy.jpg"}
             fill
             alt="Logo"
             objectFit="contain"
