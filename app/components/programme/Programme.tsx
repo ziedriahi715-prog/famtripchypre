@@ -180,8 +180,8 @@ const Programme = () => {
   return (
     <>
       <Navbar text="PROGRAMME" />
-      <div className="mx-auto p-6 md:max-w-4xl">
-        <div className="mt-6 overflow-hidden rounded-md border border-gray-200">
+      <div className="mx-auto md:max-w-4xl">
+        <div className="overflow-hidden">
           <div
             role="tablist"
             aria-label="Programme par jour"
@@ -196,8 +196,8 @@ const Programme = () => {
                   aria-selected={selected}
                   className={`text-sm md:text-base px-4 py-3 text-left transition-colors ${
                     selected
-                      ? "bg-gray-100 font-semibold"
-                      : "bg-gray-200 hover:bg-gray-300"
+                      ? "bg-[#6B7280] text-white font-semibold"
+                      : "bg-[#D1D5DB] hover:bg-gray-300"
                   }`}
                   onClick={() => setActiveKey(day.key)}
                 >
@@ -208,7 +208,7 @@ const Programme = () => {
           </div>
         </div>
         <div className="mt-6">
-          <p className="text-accent mt-2 text-[18px] font-semibold">
+          <p className="text-[#6A9360] mt-2 text-[18px] font-semibold">
             {activeDay.title}
           </p>
           {activeDay.content}

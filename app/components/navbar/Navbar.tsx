@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ text, className }) => {
             <Image src="/images/logo.png" alt="Logo" fill sizes="110px" />
           </div>
           <div className="relative h-[44px] w-[110px]">
-            <Image src="/images/sassy.jpg" alt="Sassy" fill sizes="110px" />
+            <Image src="/images/sassy_png.png" alt="Sassy" fill sizes="120px" />
           </div>
           <div className="relative h-[44px] w-[110px]">
             <Image src="/images/cyprus.png" alt="Cyprus" fill sizes="110px" />
