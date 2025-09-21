@@ -10,7 +10,7 @@ const ContactCard = ({
   content2: string;
 }) => {
   return (
-    <div className="bg-white m-6 border-2 border-primary rounded-lg p-6 max-w-2xl mx-auto">
+    <div className="bg-white m-6 border-2  border-primary rounded-lg p-6 max-w-2xl ">
       <h2 className="text-green-600 text-xl font-semibold mb-4 text-center">
         {title}
       </h2>

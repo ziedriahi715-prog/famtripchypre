@@ -207,7 +207,7 @@ const Programme = () => {
             })}
           </div>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 mx-4">
           <p className="text-[#6A9360] mt-2 text-[18px] font-semibold">
             {activeDay.title}
           </p>
