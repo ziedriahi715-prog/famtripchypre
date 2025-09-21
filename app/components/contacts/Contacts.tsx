@@ -28,7 +28,7 @@ const Contacts = () => {
   ];
   return (
     <div>
-      <Navbar text="Contacts utiles" />
+      <Navbar text="Contacts Utiles" />
       {data.map((item, index) => (
         <ContactCard key={index} {...item} />
       ))}
