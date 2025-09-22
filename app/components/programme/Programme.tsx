@@ -180,12 +180,12 @@ const Programme = () => {
   return (
     <>
       <Navbar text="PROGRAMME" />
-      <div className="mx-auto max-w-4xl px-2 sm:px-4">
+      <div className="mx-auto md:max-w-4xl">
         <div className="overflow-hidden">
           <div
             role="tablist"
             aria-label="Programme par jour"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 sm:gap-0"
+            className="grid grid-cols-3 "
           >
             {days.map((day) => {
               const selected = day.key === activeKey;
@@ -194,7 +194,7 @@ const Programme = () => {
                   key={day.key}
                   role="tab"
                   aria-selected={selected}
-                  className={`text-xs sm:text-sm md:text-base px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-center transition-colors whitespace-nowrap ${
+                  className={`border border-white text-xs sm:text-sm md:text-base px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-center transition-colors whitespace-nowrap ${
                     selected
                       ? "bg-[#6B7280] text-white font-semibold"
                       : "bg-[#D1D5DB] hover:bg-gray-300"

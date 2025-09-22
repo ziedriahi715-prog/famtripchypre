@@ -36,20 +36,6 @@ const Banner: React.FC<Banner> = ({
               height={35}
               className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full"
               priority
-              onError={(e) => {
-                console.error("Failed to load logo.png");
-                const target = e.currentTarget;
-                target.style.display = "none";
-                // Show fallback text
-                const parent = target.parentElement;
-                if (parent && !parent.querySelector(".fallback-text")) {
-                  const fallback = document.createElement("span");
-                  fallback.className =
-                    "fallback-text text-xs text-gray-800 font-semibold";
-                  fallback.textContent = "LOGO";
-                  parent.appendChild(fallback);
-                }
-              }}
             />
           </div>
 
@@ -62,20 +48,6 @@ const Banner: React.FC<Banner> = ({
               height={50}
               className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full"
               priority
-              onError={(e) => {
-                console.error("Failed to load sassy_png.png");
-                const target = e.currentTarget;
-                target.style.display = "none";
-                // Show fallback text
-                const parent = target.parentElement;
-                if (parent && !parent.querySelector(".fallback-text")) {
-                  const fallback = document.createElement("span");
-                  fallback.className =
-                    "fallback-text text-xs text-gray-800 font-semibold";
-                  fallback.textContent = "SASSY EVENTS";
-                  parent.appendChild(fallback);
-                }
-              }}
             />
           </div>
 
@@ -88,20 +60,6 @@ const Banner: React.FC<Banner> = ({
               height={35}
               className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full"
               priority
-              onError={(e) => {
-                console.error("Failed to load cyprus.png");
-                const target = e.currentTarget;
-                target.style.display = "none";
-                // Show fallback text
-                const parent = target.parentElement;
-                if (parent && !parent.querySelector(".fallback-text")) {
-                  const fallback = document.createElement("span");
-                  fallback.className =
-                    "fallback-text text-xs text-gray-800 font-semibold";
-                  fallback.textContent = "CYPRUS AIRWAYS";
-                  parent.appendChild(fallback);
-                }
-              }}
             />
           </div>
         </div>
