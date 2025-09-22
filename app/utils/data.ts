@@ -1,4 +1,74 @@
-// export const Menus = [
+export const TrombinoscopeData = [
+  // Row 1
+  [
+    {
+      name: "Emma",
+      company: "Agenence 008",
+      image: "/images/trombinoscope/Emma.jpg",
+    },
+    {
+      name: "Géraldine",
+      company: "Créative Events",
+      image: "/images/trombinoscope/Geraldine.jpg",
+    },
+    {
+      name: "Jenny",
+      company: "Equatour",
+      image: "/images/trombinoscope/Jenny.jpg",
+    },
+    {
+      name: "Xénia",
+      company: "Force Rose",
+      image: "/images/trombinoscope/Xenia - Force Rose.jpg",
+    },
+  ],
+  // Row 2
+  [
+    {
+      name: "Charlotte",
+      company: "MotivEvents",
+      image: "/images/trombinoscope/Charlotte - MotivEvents.jpg",
+    },
+    {
+      name: "Mélanie",
+      company: "Succès des Stim",
+      image: "/images/trombinoscope/melanie.jpg",
+    },
+    {
+      name: "Christe",
+      company: "WMH",
+      image: "/images/trombinoscope/christe.jpg",
+    },
+    {
+      name: "Sabrina",
+      company: "Wagram & Vous",
+      image: "/images/trombinoscope/Sabrina - Wagram & Vous.jpg",
+    },
+  ],
+  // Row 3
+  [
+    {
+      name: "Aurore",
+      company: "Sassy Events",
+      image: "/images/trombinoscope/Aurore - Sassy Events.jpg",
+    },
+    {
+      name: "Kléa",
+      company: "Sassy Events",
+      image: "/images/trombinoscope/Kléa - Sassy Events.jpg",
+    },
+    {
+      name: "Kabi",
+      company: "Sassy Events",
+      image: "/images/trombinoscope/Abi - Sassy Events.jpg",
+    },
+    {
+      name: "Hervé",
+      company: "The MICE Experts",
+      image: "/images/trombinoscope/Herve.jpg",
+    },
+  ],
+]; // export const Menus = [
 //   {
 //     name: 'Programme',
 //     icon: '/images/svg/calendar-check.svg',

@@ -14,21 +14,21 @@ const Banner: React.FC<Banner> = ({
   return (
     <div
       className={`
-        relative bg-black bg-[url('/images/banniere.jpg')] bg-cover bg-center bg-no-repeat px-4 h-[33vh] md:h-[40vh] ${className}
+        relative bg-black bg-[url('/images/banniere.jpg')] bg-cover bg-center bg-no-repeat px-4 h-[33vh] md:h-[40vh] ${className} 
        `}
     >
       {/* Dark overlay for better contrast */}
       <div className="absolute inset-0 bg-black/30 z-0"></div>
 
       {/* THE MICE EXPERT section in top right */}
-      <div className="absolute top-2 right-2 sm:top-4 sm:right-4 md:top-6 md:right-6 z-20 flex flex-col items-end">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-20">
         {/* Vertical line separator */}
-        <div className="absolute -left-4 sm:-left-6 md:-left-8 top-0 w-0.5 h-32  sm:h-36 md:h-48 bg-white/80 shadow-sm"></div>
+        <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-0.5 h-32 sm:h-36 md:h-48 bg-black shadow-sm"></div>
 
-        {/* Logo container with better spacing and backgrounds */}
-        <div className="flex flex-col items-end gap-2 sm:gap-3 md:gap-4">
+        {/* Logo container positioned to the right of the line */}
+        <div className=" left-1/2 top-2 sm:top-3 md:top-4 ml-2 sm:ml-3 md:ml-4 flex flex-col items-start gap-2 sm:gap-3 md:gap-4 relative z-10">
           {/* First logo with fallback */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
+          <div className="backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/logo.png"
               alt="Logo"
@@ -40,7 +40,7 @@ const Banner: React.FC<Banner> = ({
           </div>
 
           {/* Sassy Events logo with fallback */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
+          <div className="backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/sassy_png.png"
               alt="Sassy Events"
@@ -52,7 +52,7 @@ const Banner: React.FC<Banner> = ({
           </div>
 
           {/* Cyprus Airways logo with fallback */}
-          <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
+          <div className=" backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/cyprus.png"
               alt="Cyprus Airways"
