@@ -91,62 +91,62 @@ const Navigation: React.FC<NavName> = ({handlePageName}) => {
 
 
 
-      <div className="grid grid-cols-3 items-center gap-10 px-8">
-        <div className="space-y-10">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-10 px-4 sm:px-6 md:px-8">
+        <div className="space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10">
           <div>
             <Link onClick={() => handlePageName(MenuHomePage[0].link)} href="#" className="flex flex-col items-center">
-              <div className="border-accent flex h-[82px] w-[82px] items-center justify-center rounded-full border-2">
-                <span className="relative h-[50px] w-[50px]">
+              <div className="border-accent flex h-[60px] w-[60px] sm:h-[70px] sm:w-[70px] md:h-[82px] md:w-[82px] items-center justify-center rounded-full border-2">
+                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
                   <Image fill src={MenuHomePage[0].icon} alt={MenuHomePage[0].icon} />
                 </span>
               </div>
-              <span className="text-sm text-gray-700">{MenuHomePage[0].name}</span>
+              <span className="text-xs sm:text-sm text-gray-700 text-center mt-1 sm:mt-2">{MenuHomePage[0].name}</span>
             </Link>
           </div>
           <div>
             <Link onClick={() => handlePageName(MenuHomePage[2].link)} href="#" className="flex flex-col items-center">
-              <div className="border-accent flex h-[82px] w-[82px] items-center justify-center rounded-full border-2">
-                <span className="relative h-[50px] w-[50px]">
+              <div className="border-accent flex h-[60px] w-[60px] sm:h-[70px] sm:w-[70px] md:h-[82px] md:w-[82px] items-center justify-center rounded-full border-2">
+                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
                   <Image fill src={MenuHomePage[2].icon} alt={MenuHomePage[2].icon} />
                 </span>
               </div>
-              <span className="text-sm text-gray-700">{MenuHomePage[2].name}</span>
+              <span className="text-xs sm:text-sm text-gray-700 text-center mt-1 sm:mt-2">{MenuHomePage[2].name}</span>
             </Link>
           </div>
         </div>
 
-        <div>
+        <div className="flex justify-center">
           <div>
             <Link onClick={() => handlePageName(MenuHomePage[4].link)} href="#" className="flex flex-col items-center">
-              <div className="border-accent flex h-[82px] w-[82px] items-center justify-center rounded-full border-2">
-                <span className="relative h-[50px] w-[50px]">
+              <div className="border-accent flex h-[60px] w-[60px] sm:h-[70px] sm:w-[70px] md:h-[82px] md:w-[82px] items-center justify-center rounded-full border-2">
+                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
                   <Image fill src={MenuHomePage[4].icon} alt={MenuHomePage[4].icon} />
                 </span>
               </div>
-              <span className="text-sm text-gray-700">{MenuHomePage[4].name}</span>
+              <span className="text-xs sm:text-sm text-gray-700 text-center mt-1 sm:mt-2">{MenuHomePage[4].name}</span>
             </Link>
           </div>
         </div>
 
-        <div className="space-y-10">
+        <div className="space-y-4 sm:space-y-6 md:space-y-8 lg:space-y-10 col-span-2 sm:col-span-1">
           <div>
             <Link onClick={() => handlePageName(MenuHomePage[1].link)} href='#' className="flex flex-col items-center">
-              <div className="border-accent flex h-[82px] w-[82px] items-center justify-center rounded-full border-2">
-                <span className="relative h-[50px] w-[50px]">
+              <div className="border-accent flex h-[60px] w-[60px] sm:h-[70px] sm:w-[70px] md:h-[82px] md:w-[82px] items-center justify-center rounded-full border-2">
+                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
                   <Image fill src={MenuHomePage[1].icon} alt={MenuHomePage[1].icon} />
                 </span>
               </div>
-              <span className="text-sm text-gray-700">{MenuHomePage[1].name}</span>
+              <span className="text-xs sm:text-sm text-gray-700 text-center mt-1 sm:mt-2">{MenuHomePage[1].name}</span>
             </Link>
           </div>
           <div>
             <Link onClick={() => handlePageName(MenuHomePage[3].link)} href="#" className="flex flex-col items-center">
-              <div className="border-accent flex h-[82px] w-[82px] items-center justify-center rounded-full border-2">
-                <span className="relative h-[50px] w-[50px]">
+              <div className="border-accent flex h-[60px] w-[60px] sm:h-[70px] sm:w-[70px] md:h-[82px] md:w-[82px] items-center justify-center rounded-full border-2">
+                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
                   <Image fill src={MenuHomePage[3].icon} alt={MenuHomePage[3].icon} />
                 </span>
               </div>
-              <span className="text-sm text-gray-700">{MenuHomePage[3].name}</span>
+              <span className="text-xs sm:text-sm text-gray-700 text-center mt-1 sm:mt-2">{MenuHomePage[3].name}</span>
             </Link>
           </div>
         </div>

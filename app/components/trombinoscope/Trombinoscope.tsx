@@ -12,7 +12,7 @@ const Trombinoscope = () => {
     <>
       <Navbar text="Trombinoscope" />
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-4 mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 px-2 sm:px-4 mt-4 sm:mt-6">
         <Column1 />
         <Column2 />
         <Column3 />

@@ -180,12 +180,12 @@ const Programme = () => {
   return (
     <>
       <Navbar text="PROGRAMME" />
-      <div className="mx-auto md:max-w-4xl">
+      <div className="mx-auto max-w-4xl px-2 sm:px-4">
         <div className="overflow-hidden">
           <div
             role="tablist"
             aria-label="Programme par jour"
-            className="grid grid-cols-3"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 sm:gap-0"
           >
             {days.map((day) => {
               const selected = day.key === activeKey;
@@ -194,24 +194,29 @@ const Programme = () => {
                   key={day.key}
                   role="tab"
                   aria-selected={selected}
-                  className={`text-sm md:text-base px-4 py-3 text-center  transition-colors ${
+                  className={`text-xs sm:text-sm md:text-base px-2 sm:px-3 md:px-4 py-2 sm:py-3 text-center transition-colors whitespace-nowrap ${
                     selected
                       ? "bg-[#6B7280] text-white font-semibold"
                       : "bg-[#D1D5DB] hover:bg-gray-300"
                   }`}
                   onClick={() => setActiveKey(day.key)}
                 >
-                  {day.label}
+                  <span className="hidden sm:inline">{day.label}</span>
+                  <span className="sm:hidden">
+                    {day.label.split(' ')[1]} {day.label.split(' ')[2]}
+                  </span>
                 </button>
               );
             })}
           </div>
         </div>
-        <div className="mt-6 mx-4">
-          <p className="text-[#6A9360] mt-2 text-[18px] font-semibold">
+        <div className="mt-4 sm:mt-6 mx-2 sm:mx-4">
+          <p className="text-[#6A9360] mt-2 text-sm sm:text-base md:text-lg lg:text-xl font-semibold">
             {activeDay.title}
           </p>
-          {activeDay.content}
+          <div className="text-sm sm:text-base">
+            {activeDay.content}
+          </div>
         </div>
       </div>
     </>
