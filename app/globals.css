@@ -23,6 +23,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Scotch';
+  src: url('/fonts/Scotch-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 :root {
   --secondary: #ed8000;

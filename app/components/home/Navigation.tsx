@@ -96,8 +96,8 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
               href="#"
               className="flex flex-col items-center"
             >
-              <div className="border-accent flex size-20 items-center justify-center rounded-full border-2">
-                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
+              <div className="border-accent flex size-16 sm:size-20 items-center justify-center rounded-full border-2">
+                <span className="relative h-[30px] w-[30px] sm:h-[35px] sm:w-[35px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
                   <Image
                     fill
                     src={MenuHomePage[0].icon}
@@ -105,7 +105,7 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
                   />
                 </span>
               </div>
-              <span className="text-xs text-gray-700 text-center pt-2">
+              <span className="text-xs text-gray-700 text-center pt-2 w-full whitespace-nowrap">
                 {MenuHomePage[0].name}
               </span>
             </Link>
@@ -116,8 +116,8 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
               href="#"
               className="flex flex-col items-center"
             >
-              <div className="border-accent flex size-20 items-center justify-center rounded-full border-2">
-                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
+              <div className="border-accent flex size-16 sm:size-20 items-center justify-center rounded-full border-2">
+                <span className="relative h-[30px] w-[30px] sm:h-[35px] sm:w-[35px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
                   <Image
                     fill
                     src={MenuHomePage[2].icon}
@@ -125,7 +125,7 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
                   />
                 </span>
               </div>
-              <span className="text-xs text-gray-700 text-center pt-2">
+              <span className="text-xs text-gray-700 text-center pt-2 w-full whitespace-nowrap">
                 {MenuHomePage[2].name}
               </span>
             </Link>
@@ -139,8 +139,8 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
               href="#"
               className="flex flex-col items-center"
             >
-              <div className="border-accent flex size-20 items-center justify-center rounded-full border-2">
-                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
+              <div className="border-accent flex size-16 sm:size-20 items-center justify-center rounded-full border-2">
+                <span className="relative h-[30px] w-[30px] sm:h-[35px] sm:w-[35px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
                   <Image
                     fill
                     src={MenuHomePage[4].icon}
@@ -148,7 +148,7 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
                   />
                 </span>
               </div>
-              <span className="text-xs text-gray-700 text-center pt-2">
+              <span className="text-xs text-gray-700 text-center pt-2 w-full whitespace-nowrap">
                 {MenuHomePage[4].name}
               </span>
             </Link>
@@ -162,8 +162,8 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
               href="#"
               className="flex flex-col items-center"
             >
-              <div className="border-accent flex size-20 items-center justify-center rounded-full border-2">
-                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
+              <div className="border-accent flex size-16 sm:size-20 items-center justify-center rounded-full border-2">
+                <span className="relative h-[30px] w-[30px] sm:h-[35px] sm:w-[35px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
                   <Image
                     fill
                     src={MenuHomePage[1].icon}
@@ -171,7 +171,7 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
                   />
                 </span>
               </div>
-              <span className="text-xs text-gray-700 text-center pt-2">
+              <span className="text-xs text-gray-700 text-center pt-2 w-full whitespace-nowrap">
                 {MenuHomePage[1].name}
               </span>
             </Link>
@@ -182,8 +182,8 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
               href="#"
               className="flex flex-col items-center"
             >
-              <div className="border-accent flex size-20 items-center justify-center rounded-full border-2">
-                <span className="relative h-[35px] w-[35px] sm:h-[40px] sm:w-[40px] md:h-[50px] md:w-[50px]">
+              <div className="border-accent flex size-16 sm:size-20 items-center justify-center rounded-full border-2">
+                <span className="relative h-[30px] w-[30px] sm:h-[35px] sm:w-[35px] md:h-[40px] md:w-[40px] lg:h-[50px] lg:w-[50px]">
                   <Image
                     fill
                     src={MenuHomePage[3].icon}
@@ -191,7 +191,7 @@ const Navigation: React.FC<NavName> = ({ handlePageName }) => {
                   />
                 </span>
               </div>
-              <span className="text-xs text-gray-700 text-center pt-2">
+              <span className="text-xs text-gray-700 text-center pt-2 w-full whitespace-nowrap">
                 {MenuHomePage[3].name}
               </span>
             </Link>

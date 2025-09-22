@@ -18,7 +18,8 @@ const config: Config = {
         primaryforeground: "#ffffff",
       },
       fontFamily: {
-        Bonnet: ["Bonnet", "sans-serif"], // ✅ this matches `font-Bonnet`
+        Bonnet: ["Bonnet", "sans-serif"],
+        Scotch: ["Scotch", "sans-serif"],
       },
     },
   },
