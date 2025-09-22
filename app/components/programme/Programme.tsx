@@ -203,7 +203,7 @@ const Programme = () => {
                 >
                   <span className="hidden sm:inline">{day.label}</span>
                   <span className="sm:hidden">
-                    {day.label.split(' ')[1]} {day.label.split(' ')[2]}
+                    {day.label.split(" ")[1]} {day.label.split(" ")[2]}
                   </span>
                 </button>
               );
@@ -214,9 +214,7 @@ const Programme = () => {
           <p className="text-[#6A9360] mt-2 text-sm sm:text-base md:text-lg lg:text-xl font-semibold">
             {activeDay.title}
           </p>
-          <div className="text-sm sm:text-base">
-            {activeDay.content}
-          </div>
+          <div className="text-sm sm:text-base">{activeDay.content}</div>
         </div>
       </div>
     </>

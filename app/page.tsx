@@ -14,7 +14,7 @@ export default function Home() {
     <div className="mx-auto max-w-4xl">
       {menu === "home" ? (
         <>
-          <Banner className="h-[250px]" BannerTitleClass="top-[65%]" />
+          <Banner BannerTitleClass="top-[65%]" />
           <Navigation handlePageName={handleMenu} />
         </>
       ) : (

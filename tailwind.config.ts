@@ -1,3 +1,4 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,10 +12,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        secondary : "#ed8000",
-        primary: '#6a9360',
-        accent: '#5fc142',
-        primaryforeground: '#ffffff'
+        secondary: "#ed8000",
+        primary: "#6a9360",
+        accent: "#5fc142",
+        primaryforeground: "#ffffff",
+      },
+      fontFamily: {
+        Bonnet: ["Bonnet", "sans-serif"], // ✅ this matches `font-Bonnet`
       },
     },
   },
