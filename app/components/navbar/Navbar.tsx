@@ -9,30 +9,40 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ text, className }) => {
   return (
     <div className={className ?? ""}>
-      <div className="bg-gradient-to-r from-[#1f2f3a] to-[#ffffff] h-[92px] flex items-center justify-around gap-5">
-        <div className="max-w-4xl flex items-center justify-between  gap-10 px-2 sm:px-3 md:px-4 py-2 sm:py-3">
-          <div className="relative h-[30px] w-[70px] sm:h-[36px] sm:w-[85px] md:h-[44px] md:w-[110px]">
+      <div className="bg-[#1f2f3a] h-[92px] flex items-center justify-around gap-5">
+        <div className="max-w-4xl flex items-center justify-between  gap-10 p-4">
+          <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/logo.png"
               alt="Logo"
-              fill
-              sizes="(max-width: 640px) 70px, (max-width: 768px) 85px, 110px"
+              width={100}
+              height={35}
+              className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full"
+              priority
             />
           </div>
-          <div className="relative h-[30px] w-[70px] sm:h-[36px] sm:w-[85px] md:h-[44px] md:w-[110px]">
+
+          {/* Sassy Events logo with fallback */}
+          <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/sassy_png.png"
-              alt="Sassy"
-              fill
-              sizes="(max-width: 640px) 70px, (max-width: 768px) 85px, 120px"
+              alt="Sassy Events"
+              width={120}
+              height={50}
+              className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full"
+              priority
             />
           </div>
-          <div className="relative h-[30px] w-[70px] sm:h-[36px] sm:w-[85px] md:h-[44px] md:w-[110px]">
+
+          {/* Cyprus Airways logo with fallback */}
+          <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/cyprus.png"
-              alt="Cyprus"
-              fill
-              sizes="(max-width: 640px) 70px, (max-width: 768px) 85px, 110px"
+              alt="Cyprus Airways"
+              width={100}
+              height={35}
+              className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full"
+              priority
             />
           </div>
         </div>
