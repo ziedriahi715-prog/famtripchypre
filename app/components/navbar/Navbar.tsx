@@ -10,7 +10,7 @@ const Navbar: React.FC<NavbarProps> = ({ text, className }) => {
   return (
     <div className={className ?? ""}>
       <div className="bg-[#1f2f3a] h-[92px] flex items-center justify-around">
-        <div className="max-w-4xl flex items-center justify-between gap-6 p-4">
+        <div className="max-w-4xl flex items-center justify-between gap-4 p-4">
           <div className="bg-white/90 backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/logo.png"
