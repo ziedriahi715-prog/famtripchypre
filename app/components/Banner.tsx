@@ -23,12 +23,12 @@ const Banner: React.FC<Banner> = ({
       {/* THE MICE EXPERT section in top right */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-20">
         {/* Vertical line separator */}
-        <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-0.5 h-32 sm:h-36 md:h-48 bg-black shadow-sm"></div>
+        <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-0.5 rounded-sm h-24 sm:h-30 md:h-36 bg-black shadow-white shadow-sm"></div>
 
         {/* Logo container positioned to the right of the line */}
-        <div className=" left-1/2 top-2 sm:top-3 md:top-4 ml-2 sm:ml-3 md:ml-4 flex flex-col items-start gap-2 sm:gap-3 md:gap-4 relative z-10">
+        <div className=" left-1/2  ml-2 sm:ml-3 md:ml-4 flex flex-col items-start gap-1 sm:gap-2 md:gap-3 relative z-10">
           {/* First logo with fallback */}
-          <div className="backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
+          <div className=" min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/logo.png"
               alt="Logo"
@@ -40,7 +40,7 @@ const Banner: React.FC<Banner> = ({
           </div>
 
           {/* Sassy Events logo with fallback */}
-          <div className="backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
+          <div className="min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/sassy_png.png"
               alt="Sassy Events"
@@ -52,7 +52,7 @@ const Banner: React.FC<Banner> = ({
           </div>
 
           {/* Cyprus Airways logo with fallback */}
-          <div className=" backdrop-blur-sm rounded-md p-1.5 sm:p-2 shadow-lg min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
+          <div className=" min-h-[28px] w-24 sm:w-32 md:w-36 flex items-center justify-center">
             <Image
               src="/images/cyprus.png"
               alt="Cyprus Airways"
