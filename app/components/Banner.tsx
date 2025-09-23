@@ -21,49 +21,6 @@ const Banner: React.FC<Banner> = ({
       <div className="absolute inset-0 bg-black/30 z-0"></div>
 
       {/* THE MICE EXPERT section in top right */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-20">
-        {/* Vertical line separator */}
-        <div className="absolute left-1/2 -top-5 transform -translate-x-1/2 w-0.5 rounded-sm h-32 sm:h-40 md:h-48 bg-black"></div>
-
-        {/* Logo container positioned to the right of the line */}
-        <div className=" left-1/2  ml-2 sm:ml-3 md:ml-4 flex flex-col items-start gap-1 sm:gap-2 md:gap-3 relative z-10">
-          {/* First logo with fallback */}
-          <div className="mt-2 min-h-[28px] w-24 sm:w-32 md:w-36 flex items-start justify-start">
-            <Image
-              src="/images/logo.png"
-              alt="Logo"
-              width={120}
-              height={55}
-              className="h-9 w-auto sm:h-10 md:h-12 object-contain max-w-full filter drop-shadow-[3px_3px_6px_rgba(255,255,255,1.5)]"
-              priority
-            />
-          </div>
-
-          {/* Sassy Events logo with fallback */}
-          <div className="min-h-[28px] w-24 sm:w-32 md:w-36 flex items-start justify-start">
-            <Image
-              src="/images/sassy_png.png"
-              alt="Sassy Events"
-              width={120}
-              height={50}
-              className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full filter drop-shadow-[3px_3px_6px_rgba(255,255,255,1.5)]"
-              priority
-            />
-          </div>
-
-          {/* Cyprus Airways logo with fallback */}
-          <div className=" min-h-[28px] w-24 sm:w-32 md:w-36 flex items-start justify-start">
-            <Image
-              src="/images/cyprus.png"
-              alt="Cyprus Airways"
-              width={100}
-              height={35}
-              className="h-5 w-auto sm:h-7 md:h-9 object-contain max-w-full filter drop-shadow-[3px_3px_6px_rgba(255,255,255,1.5)]"
-              priority
-            />
-          </div>
-        </div>
-      </div>
 
       {/* Main title at bottom center */}
       <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 px-4 sm:bottom-4 md:bottom-6">

@@ -15,7 +15,7 @@ const Contacts = () => {
       content2: "Tél : +357 25 088888",
     },
     {
-      title: "Cap St Georges hotel & resort (nuit du 27 septiembre)",
+      title: "Cap St Georges hotel & resort (nuit du 27 septembre)",
       content1: "Adresse : Maniki Street 3, Peyia 8570, Chypre",
       content2: "Tél : +357 26 000000",
     },

@@ -63,7 +63,7 @@ const ImagesDeSéjour = () => {
   ];
   return (
     <div>
-      <Navbar text="Images de séjour" />
+      <Navbar text="Images du séjour" />
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6 mx-2">
         {images.map((image, index) => (
           <div key={index} className="relative w-full aspect-square">

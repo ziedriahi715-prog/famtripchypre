@@ -16,7 +16,7 @@ const PageSwitcher: React.FC<PageName> = ({ name }) => {
 
       {name == "programmes" ? <Programme /> : ""}
 
-      {name == "Images de séjour" ? <ImagesDeSéjour /> : ""}
+      {name == "Images du séjour" ? <ImagesDeSéjour /> : ""}
       {name == "Contacts utiles" ? <Contacts /> : ""}
 
       {name == "trombinoscope" ? <Trombinoscope /> : ""}

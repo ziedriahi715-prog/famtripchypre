@@ -58,7 +58,7 @@ export const TrombinoscopeData = [
       image: "/images/trombinoscope/Kléa - Sassy Events.jpg",
     },
     {
-      name: "Kabi",
+      name: "Abi",
       company: "Sassy Events",
       image: "/images/trombinoscope/Abi - Sassy Events.jpg",
     },
@@ -108,9 +108,9 @@ export const Menus = [
     link: "programmes",
   },
   {
-    name: "Images de séjour",
+    name: "Images du séjour",
     icon: "/images/svg/images.svg",
-    link: "Images de séjour",
+    link: "Images du séjour",
   },
   {
     name: "Contacts utiles",
@@ -141,9 +141,9 @@ export const MenuHomePage = [
     link: "programmes",
   },
   {
-    name: "Images de séjour",
+    name: "Images du séjour",
     icon: "/images/svghomepage/images.svg",
-    link: "Images de séjour",
+    link: "Images du séjour",
   },
   {
     name: "Contacts utiles",

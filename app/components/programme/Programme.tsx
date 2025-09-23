@@ -27,17 +27,21 @@ const days: DayProgramme[] = [
             <span>Transfert vers votre hôtel.</span>
           </li>
           <li className="space-x-2">
-            <b>19h30 :</b>
+            <b>20h15 :</b>
+            <span>Check in, verre de bienvenue et installation à l'hôtel.</span>
+          </li>
+          <li className="space-x-2">
+            <b>20h15 :</b>
             <span>
-              Check in, verre de bienveniue et installation à l'hôtel.
+              Cocktail de bienvenue et présentation par Cyprus Airways.
             </span>
           </li>
           <li className="space-x-2">
-            <b>20h00 :</b>
+            <b>21h00 :</b>
             <span>Dîner au restaurant Anaïs.</span>
           </li>
           <li className="space-x-2">
-            <span>Nuit à l'hôtel et casino, City of Dreams Mediterranean.</span>
+            <span>Nuit à l’hôtel casino, City of Dreams Mediterranean.</span>
           </li>
         </ul>
       </>
@@ -46,15 +50,13 @@ const days: DayProgramme[] = [
   {
     key: "2025-09-27",
     label: "Samedi 27 septembre",
-    title: "Samedi 27 septembre: Escapade chypriote !",
+    title: "Samedi 27 septembre : Escapade chypriote !",
     content: (
       <>
         <ul className="list-disc space-y-3 py-2 pl-5">
           <li className="space-x-2">
             <b>08h00 :</b>
-            <span>
-              Petit-déjeuner, présentation de Sassy Evenets & Cyprus Airways
-            </span>
+            <span>Petit-déjeuner, présentation de Sassy Events.</span>
           </li>
 
           <li className="space-x-2">
@@ -70,7 +72,7 @@ const days: DayProgramme[] = [
           </li>
 
           <li className="space-x-2">
-            <b>17h00 :</b>
+            <b>18h00 :</b>
             <span>
               Installation et temps libre pour se rafraîchir, à l'hôtel Cap St
               Georges.
@@ -78,12 +80,7 @@ const days: DayProgramme[] = [
           </li>
 
           <li className="space-x-2">
-            <b>18h00 :</b>
-            <span>Visite de l'hôtel Cap St Georges.</span>
-          </li>
-
-          <li className="space-x-2">
-            <b>19h00 :</b>
+            <b>19h30 :</b>
             <span>Dîner avec une vue à couper le souffle.</span>
           </li>
           <li className="space-x-2">
@@ -96,46 +93,58 @@ const days: DayProgramme[] = [
   {
     key: "2025-09-28",
     label: "Dimanche 28 septembre",
-    title: "Dimanche 28 septembre: Immersion & Blue Lagoon !",
+    title: "Dimanche 28 septembre : Immersion & Blue Lagoon !",
     content: (
       <>
         <ul className="list-disc space-y-3 py-2 pl-5">
           <li className="space-x-2">
-            <b>08h00 :</b>
+            <b>09h00 :</b>
+            <span>Petit-déjeuner.</span>
+          </li>
+          <li className="space-x-2">
+            <b>10h00 :</b>
+            <span>Visite de l'hôtel Cap St Georges. </span>
+          </li>
+          <li className="space-x-2">
+            <b>11h00 :</b>
+            <span>Check out et départ de l'hôtel.</span>
+          </li>
+          <li className="space-x-2">
+            <b>11h40 :</b>
             <span>
-              Petit-déjeuner, présentation de Sassy Evenets & Cyprus Airways
+              Activité artistique « éphémère » sur la plage de l'hôtel Anassa.
             </span>
           </li>
           <li className="space-x-2">
-            <b>09h30 :</b>
-            <span>Check-out et départ de l'hôtel. </span>
-          </li>
-          <li className="space-x-2">
-            <b>10h00/12h00 :</b>
-            <span>Activité immersive. </span>
+            <b>12h40 :</b>
+            <span>Brunch à l'hôtel Anassa.</span>
           </li>
           <li className="space-x-2">
             <b>14h00 :</b>
             <span>
-              Croisière vers le Blue Lagoon, avec déjeuner pique-nique surprise.{" "}
+              Croisière vers le Blue Lagoon, avec déjeuner pique-nique surprise.
             </span>
+          </li>
+          <li className="space-x-2">
+            <b>17h00:</b>
+            <span>Transfert retour à Limassol.</span>
           </li>
           <li className="space-x-2">
             <b>19h00 :</b>
             <span>
-              Check-in, verre de bienvenue et installation à l'hotel Parklane.{" "}
+              Check-in, verre de bienvenue et installation à l’hôtel Parklane.
             </span>
           </li>
           <li className="space-x-2">
             <b>20h00 :</b>
-            <span>Visite de l'hôtel. </span>
+            <span>Visite de l'hôtel Parklane.</span>
           </li>
           <li className="space-x-2">
             <b>21h00 :</b>
-            <span>Dîner et soirée festive à Nammos. </span>
+            <span>Dîner et soirée festive à Nammos.</span>
           </li>
           <li className="space-x-2">
-            <span>Nuit à l'hôtel Parklane. </span>
+            <span>Nuit à l'hôtel Parklane.</span>
           </li>
         </ul>
       </>
@@ -144,7 +153,7 @@ const days: DayProgramme[] = [
   {
     key: "2025-09-29",
     label: "Lundi 29 septembre",
-    title: "Lundi 29 septembre: Ta léme sýntoma !",
+    title: "Lundi 29 septembre : Ta léme sýntoma !",
     content: (
       <>
         <ul className="list-disc space-y-3 py-2 pl-5">
