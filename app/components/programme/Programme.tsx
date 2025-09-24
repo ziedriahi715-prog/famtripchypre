@@ -117,7 +117,7 @@ const days: DayProgramme[] = [
           <li className="space-x-2">
             <b>14h00 :</b>
             <span>
-              Croisière vers le Blue Lagoon, avec déjeuner pique-nique surprise.
+              Croisière vers le Blue Lagoon, avec pique-nique surprise.
             </span>
           </li>
           <li className="space-x-2">
