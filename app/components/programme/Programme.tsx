@@ -27,7 +27,7 @@ const days: DayProgramme[] = [
             <span>Transfert vers votre hôtel.</span>
           </li>
           <li className="space-x-2">
-            <b>20h15 :</b>
+            <b>19h30 :</b>
             <span>Check in, verre de bienvenue et installation à l'hôtel.</span>
           </li>
           <li className="space-x-2">
@@ -54,11 +54,6 @@ const days: DayProgramme[] = [
     content: (
       <>
         <ul className="list-disc space-y-3 py-2 pl-5">
-          <li className="space-x-2">
-            <b>08h00 :</b>
-            <span>Petit-déjeuner, présentation de Sassy Events.</span>
-          </li>
-
           <li className="space-x-2">
             <b>9h00 :</b>
             <span>Visite de l'hôtel City of Dreams Mediterranean.</span>

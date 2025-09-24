@@ -57,11 +57,7 @@ export const TrombinoscopeData = [
       company: "Sassy Events",
       image: "/images/trombinoscope/Kléa - Sassy Events.jpg",
     },
-    {
-      name: "Abi",
-      company: "Sassy Events",
-      image: "/images/trombinoscope/Abi - Sassy Events.jpg",
-    },
+
     {
       name: "Hervé",
       company: "The MICE Experts",
